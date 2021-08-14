@@ -22,3 +22,10 @@ function logic_functions(){
     document.getElementById("logic3").innerHTML =(5>10 || 10>4);
     document.getElementById("logic4").innerHTML =(5>10 || 10>20);
 }
+
+function equal()
+{
+    document.getElementById("equal1").innerHTML = "blue" == 8;
+    document.getElementById("equal2").innerHTML = "blue" === "blue";
+    document.getElementById("equal3").innerHTML = 8<3;
+}
