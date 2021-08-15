@@ -1,3 +1,4 @@
+//ternary operator
 function Ride_Function(){
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
@@ -5,7 +6,7 @@ function Ride_Function(){
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 
 }
-
+//utulizing object oriented programing and making classes/constructors
 function Vehicle (Make, Model, Year, Color){
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
@@ -19,4 +20,14 @@ function myFunction(){
     document.getElementById("Keywords_and_Constructors").innerHTML =
     "Erik drives a "+ Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model + 
     " manufactured in " + Erik.Vehicle_Year;
+}
+//nested function
+function count_Function(){
+    document.getElementById("Nested_Function").innerHTML = Count();
+    function Count() {
+            var begin = 9;
+            function PlusOne() {begin += 1;}
+            PlusOne();
+            return begin;
+    }
 }
