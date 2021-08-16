@@ -9,6 +9,9 @@
 body {font-family: Verdana, sans-serif; margin:0}
 
 /* Hide the images by default */
+.mySlides:first-of-type{
+    display: contents;
+}
 .mySlides {
   display: none;
 }
