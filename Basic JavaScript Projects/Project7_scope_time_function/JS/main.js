@@ -1,5 +1,6 @@
 //global variable
 var date = new Date();
+var Y = 152;
 
 // console error and debug assignment
 function Add_numbers_1() {
@@ -8,8 +9,8 @@ function Add_numbers_1() {
     console.log(15+X);
 }
 function Add_numbers_2() {
-    document.write(X+100);
-    console.log(X+100);
+    document.write(Y+100);
+    console.log(Y+100);
 }
 Add_numbers_1();
 Add_numbers_2();
